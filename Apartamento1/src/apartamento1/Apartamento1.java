@@ -15,6 +15,13 @@ public class Apartamento1 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        Apto miapto;
+        miapto=new Apto();
+        miapto.metroscuadrados=60;
+        miapto.colorparedes="blancas";
+        miapto.barrio="castilla";
+        
+        miapto.mostrar();
         // TODO code application logic here
     }
     
